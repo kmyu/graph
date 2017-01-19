@@ -221,7 +221,9 @@ net.smartworks.Swgraph = (function(){
 		}
 	}
 
-	var drawGraph = function(graphItemList, canvas , context) {
+
+
+	var drawGraph = function(graphItemList , canvas , context) {
 
 		context.save();
 
