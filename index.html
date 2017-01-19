@@ -25,12 +25,12 @@
 	canvas.setAttribute('width' , '1000px')
 	canvas.setAttribute('height' , '60px')
 
-	var backgroundPattern = false;
+	var backgroundPattern = true;
 
 	var item1 = new net.smartworks.Swgraph.GraphItem({
-		count : 10
+		count : 0
 		,backgroundColor : '#e4e4e4'
-		,subCount : 3
+		,subCount : 0
 		,subitemBackgroundColor : '#b6b7b7'
 		,backgroundPattern : backgroundPattern
 		,subitemTitle : '나의 완료 #건'
@@ -39,16 +39,16 @@
 	var item2 = new net.smartworks.Swgraph.GraphItem({
 		count : 100
 		,backgroundColor : '#81f7e0'
-		,subCount : 90
+		,subCount : 60
 		,subitemBackgroundColor : '#0eddb5'
 		,backgroundPattern : backgroundPattern
 		,subitemTitle : '나의 진행 #건'
 	});
 
 	var item3 = new net.smartworks.Swgraph.GraphItem({
-		count : 50
+		count : 100
 		,backgroundColor : '#aeaee1'
-		,subCount : 6
+		,subCount : 90
 		,subitemBackgroundColor : '#7e7eb9'
 		,backgroundPattern : backgroundPattern
 		,subitemTitle : '나의 미진행 #건'
